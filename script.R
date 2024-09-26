@@ -12,3 +12,15 @@ usethis::create_from_github(
 
 # connect to github:
 usethis::use_github()
+
+# create and switch to new branch:
+pr_init("alt2")
+
+# push changes in current branch:
+pr_push()
+
+# merge (pull request) online on github, then delete branch:
+pr_finish()
+
+# or delete without merging:
+pr_forget()
