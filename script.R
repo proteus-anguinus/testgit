@@ -10,5 +10,5 @@ usethis::create_from_github(
   fork = F
 )
 
+# connect to github:
 usethis::use_github()
-
